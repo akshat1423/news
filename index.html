@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>NewsCentral | News at your Fingertips!</title>
+      <link rel = "icon" href ="icon2.png" type = "image/x-icon">
+      <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    </head>
+    <body>
+      
+<div class="body">
+      <!-- header -->
+      <div class="nav-bar" >
+        
+        <div class="logo"><img src="logo2.png" height="85px" width="275px" class="logoo"></img></div>
+        
+        <div class="accounts" >                        
+          <form class="flex">
+          <input class="form" type="text" id="newsQuery" title="Please Dont press enter, Use Button."placeholder="Search..."></input>
+          <button class="searchbtn1" role="button" type="button" id="searchbtn"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </form>
+        </div>
+
+        <div class="headerpages">
+          <button class="headers">NEWS</button><div class="gap" ></div> 
+          <button class="headers" title="For Now only news Section Works" >QUIZ</button><div class="gap" ></div>
+          <button class="headers" title="For Now only news Section Works">SUBSCRIPTION</button><div class="gap" ></div>
+           <button class="headers" title="For Now only news Section Works">CONTRIBUTE</button>   </div>
+           
+       
+      </div> 
+      <div class="scrolling">
+      <div id="news">
+        <marquee class="sc" id="sc" behavior="scroll" direction="left" scrollamount="5">
+          <p>BREAKING NEWS : K Viswanath funeral LIVE UPDATES: PM Narendra Modi, Nagarjuna, Mammootty pay tributes; Chiranjeevi-Pawan Kalyan attend last rites - The Indian Express</p>
+        </marquee>
+      </div></div>
+      <!-- right side news -->
+      <div class="news-glance" id="news-glance"></div>
+
+      <!-- <button class="btn" id="green"><i class="fa fa-thumbs-up fa-lg" aria-hidden="true"></i></button>
+      <button class="btn" id="red"><i class="fa fa-thumbs-down fa-lg" aria-hidden="true"></i></button>
+     -->
+
+      <!-- slider -->   
+      <!-- <h1 align="center" class="headline-head" >News Headlines</h1> -->
+      <div class="sliider" id="sliider"></div>
+
+      
+      <!-- secondary news body -->
+      <!-- filter for selecting news genre -->
+      <div class="filters">
+        <div>
+          <button class="filter" id="general">General</button>
+          <button class="filter" id="technology">Technology</button>
+          <button class="filter" id="business">Business</button>
+          <button class="filter" id="entertainment" style="width: 200px;">Entertainment</button>
+          <button class="filter" id="sport">Sports</button>
+        </div>
+      </div>
+
+     <!-- left side news<div class="leftone">
+     <div class="news-glance" id="news-glance"></div></div> -->
+
+      <!-- news panels -->
+       <div id="somethon">
+             <div class="container" id="searchres" ></div>
+            <div class="container" id="container" ></div>
+       </div>
+      </div>
+      </div>   
+
+    <!-- up to top button -->
+     <div id="progress">
+        <span id="progress-value">&#x1F815;</span>
+      </div>
+      <!-- footer -->
+      <footer class="footer">
+        <div class="footer__addr">
+          <h1 class="footer__logo"><img src="logo1.png" height="130px" width="300px" class="logoo" style="margin-left:-20px ;"></img></h1>   
+          <h2>Where Can you find us ? </h2>
+          <address>
+            Somewhere Peaceful in World.<br><br>
+            <a class="footer__btn" href="mailto:22b0690@iitb.ac.in">Email Us</a>
+          </address>
+          <div class="footer-icons">
+
+            <a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+  
+          </div>
+        </div>
+        
+        <ul class="footer__nav">
+          <li class="nav__item">
+            <h2 class="nav__title">Media</h2>      
+            <ul class="nav__ul">
+              <li><a href="#">Online</a></li>      
+              <li><a href="#">Print</a></li>                 
+              <li><a href="#">Alternative Ads</a></li>
+            </ul>
+          </li>
+          
+          <li class="nav__item nav__item--extra">
+            <h2 class="nav__title">Trending Topics(hover on them)</h2>
+            
+            <ul class="nav__ul nav__ul--extra">
+              <li><a href="#" title="Khud aise bano ki tumhara naam idhar aye">Elon Musk</a></li>              
+              <li><a href="#" title="normal cash hai?">Cryptocurrency</a></li>
+              <li><a href="#" title="isse janne ke liye contribute button se pehle subscription lo">Ambani Ne Paise Kaise Banaye</a></li>
+              <li><a href="#" title="URI toh dekh hi li hogi ?">Surgicial Strike</a></li>
+              <li><a href="#" title="most happening buzzword">Artificial Intelligence</a></li> 
+              <li><a href="#" title="IIT Bombay kaise?">How to Crack JEE in 5 days</a></li>
+            </ul>
+          </li>
+          
+          <li class="nav__item">
+            <h2 class="nav__title">Legal</h2>
+            <ul class="nav__ul">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Sitemap</a></li>
+            </ul>
+          </li>
+        </ul>
+        
+        <div class="legal">
+          <p>&copy; 2023 The Newswatch. All rights reserved.</p>
+          
+        <div class="legal__links">
+            <span>Made with <span class="heart">♥</span></span><span></span><span> by Akshat</span>
+          </div>
+          
+        </div>
+        
+      </footer>
+
+      <!-- external stylesheets, fonts and javascript -->
+      <link href="style.css" rel="stylesheet">
+      <script src="index.js"></script>   
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+      <script src="https://use.fontawesome.com/fe459689b4.js"></script>
+
+    </div>
+    </body>
+</html>
